@@ -9,6 +9,8 @@ Learn more here: https://stardance.hackclub.com/
 
 View my project on Stardance here: https://stardance.hackclub.com/projects/19479
 
+View the Onshape document here: https://cad.onshape.com/documents/8bb1ca9b7e5ac3a8ddb6398c/w/dff90e83964596d1d17b9d10/e/fb41c0251ce7e4dd570a11cb?renderMode=0&uiState=6a45b81e4e7578b1759ce83d
+
 ## Overview
 
 This cyberdeck is a personal project for teaching me the art of hardware engineering through doing. I've been interested in cyberdecks ever since first seeing them in a post on r/cyberdeck, and I'm looking forward to manifesting that interest by making my own. Instead of buying a built device online, I wanted to learn how designing hardware works - from ideas to plans to products. Having the ability to add even a few lines of code to a repo you may be working on using a device that doesn't take up that much space is just one possibility with cyberdecks, with many others opening up once I get a working prototype built.
