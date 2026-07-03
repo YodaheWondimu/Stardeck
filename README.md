@@ -90,6 +90,10 @@ Space was a valuable asset of this entire operation because not only did every p
 
 ![Stardeck Enclosure (Section View)](assets/cad/Component-Assembly-Section-View.png)
 
+## Realizations
+
+There were also quite a few parts of the design process that gave me sudden realizations. First off, I was celebrating after putting alignment lips in place to align the outside shell and keep internals secure as a result - until I realized that there was no way for me to plug my external keyboard into the Pi. Back to Onshape I went, and I created a port cutout so that the Pi's USB ports would all be accessible. Now, not only could I connect a keyboard to the Pi, but I could also swap out flash drives, connect wired mice, and more. That reminded me that engineering is an iterative process where solving one problem often uncovers the next one to solve. In the same thought processes and "aha" moments, I managed to find the designs needed for the alignment lips, battery tray, etc.
+
 ## Progress
 
 - [x] Selected hardware
@@ -121,6 +125,14 @@ These enhancements are intentionally deferred until the initial prototype valida
 ## Current Status
 Prototype design complete.
 Next up: Prototype fabrication.
+
+## Acknowledgements
+
+People who helped: HTM Workshop's KiCAD tutorial series walked me through the basics of KiCAD, which helped me visualize ports on the Raspberry Pi when creating the initial schematic.
+
+Libraries I leaned on: KiCAD for starting schematics, draw.io for in-depth wiring plans, engineering notes, and estimates, and Onshape for CAD.
+
+Asset packs I used: I did not necessarily use any asset packs during this project. However, I regularly used ChatGPT as a learning resource throughout the making of Stardeck. It guided me through the basics of software that I wasn't familiar with at first (KiCAD and draw.io were new to me) and provided in-depth design reviews whenever I felt stuck keeping track of physical constraints. Debugging issues, catching typos, and hunting for components for the BOM were also helpful services from ChatGPT, but all major decisions, implementations, designs, and tradeoffs were assessed and made by me.
 
 ## Learn More
 Visit the `docs` folder to follow the project's development through design notes and devlogs.
