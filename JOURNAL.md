@@ -195,6 +195,46 @@ _TL;DR:_
 
 **Time Spent This Session: ~2.5 Hours**
 
+## 2026-07-15
+
+![Physical Enclosure](assets/cad/Physical-Enclosure-Hero-View.jpeg)
+
+Today, I held Stardeck's 3D-printed enclosure for the first time. Although I don't have the electronics yet, the enclosure already gives me a starting point for thinking about how every physical component should fit into Stardeck. I went with some trusty black PLA so that the enclosure can be focused on structural integrity before going for rework and aesthetic goals. I printed each clamshell half separately - one for the top, another for the bottom - and I'm surprised at how well it turned out for the first print. It's quite strange to see something existing and holdable in the real world when all I've been doing with it for weeks was rotating and clicking it in Onshape.
+
+Tree supports worked surprisingly well at holding up overhangs, and they could pop right off unintrusively after the print finished. You can see the properties of the Onshape model in the physical enclosure, such as the display mounting area,
+
+![Top View](assets/cad/Physical-Enclosure-Top-View.jpeg)
+
+the alignment lips,
+
+![Front View](assets/cad/Physical-Enclosure-Front-View.jpeg)
+
+and the USB port cutout.
+
+![Side View](assets/cad/Physical-Enclosure-Side-View.jpeg)
+
+Strands of filament seemed to be loosening and fringing off their respective surfaces on each half, which seemed like a design integrity issue at first. After looking into it online, I learned that it was a classic case of stringing in my print, not a structural problem. I had gotten lucky at this time since most of it was gathered near the tree supports - especially those holding up the mounting rails - and they were taken out when I snapped the supports off. I cut off any leftover pieces of stuck-out filament with a valuable new nuance of 3D prints in mind.
+
+Seeing the two halves together also validated one of my earliest design decisions. The clamshell enclosure assembled exactly how I had hoped, making the design feel both practical and surprisingly satisfying to put together.
+
+![Split Halves](assets/cad/Physical-Enclosure-Halves-Split.jpeg)
+
+With all this, I'll be sure to test out how screws fit in as well. When measuring each mounting hole, I found that printer tolerances had been in my favor this time as each diameter turned out to work with my plan. The M2.5 clearance holes held their modeled dimensions, and the M3 clearance holes for the clamshell halves added security as long as the enclosure halves are aligned via their alignment lips.
+
+![Stacked Halves](assets/cad/Physical-Enclosure-Halves-Stacked.jpeg)
+
+I'm excited to see where Stardeck goes from here. You can only go so far with the most intricate of ideas, but it'll only be a thought unless you make it real. The first tangible milestone of the project taught me something cool: the design thinking you do before physical testing really does matter and really can save time, just as it saved me from wasting filament. I prepared to share this by drafting another Stardance devlog - #3 so far - and held my design decisions in my hands for the first time.
+
+I was working through multiple sessions before this where I would refine documentation, polish the JOURNAL you're reading right now, and document my Onshape document using screenshots, too. During the "show-and-tell" phase, I realized at some point that I was no longer building on top of an idea, or exclusively thinking "what if?" I was navigating toward tangibility, which is where ideation meets practice.
+
+_TL;DR:_
+- Sliced and printed both enclosure halves via black PLA.
+- Evaluated mounting hole sizes.
+- Drafted Devlog #3 of Stardance.
+- Refined documentation inside the repository.
+
+**Time Spent This Session: ~7.5 Hours (including documentation completed across multiple work sessions)**
+
 ## Design Decisions
 
 The following design decisions impacted the long-term path that Stardeck followed. This doesn't necessarily mean that they were the hardest to make, but it means that designs following these decisions were impacted by these sets of decisions making.
