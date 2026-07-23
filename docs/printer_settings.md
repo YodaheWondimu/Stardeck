@@ -20,6 +20,8 @@ Hey there! This document is a place to store my print settings. Due to the open-
 
 ## Print
 
+**Slicer:** Creality Print 7.x
+
 **Layer height:** 0.2 mm
 
 **Initial layer height:** 0.2 mm
@@ -59,6 +61,24 @@ Hey there! This document is a place to store my print settings. Due to the open-
 **Build plate:** Smooth PEI (High Temperature Plate)
 
 **Build plate adhesion (Brim, etc.):** None
+
+## Helpful Tips
+
+When printing each shell, orient your print so that the biggest face is touching the printbed. (Print orientation photos demonstrate this below.) For the bottom shell, keep the bottom-side face down, and for the top shell, keep the screen-side face down.
+
+![Print Orientation (Top)](../assets/cad/Top-Shell-Print-Orientation.png)
+
+- Approximate Print Time (Top Shell): 4 Hours, 48 Minutes
+- Filament Usage (Top Shell): ~102.74 g
+
+![Print Orientation (Bottom)](../assets/cad/Bottom-Shell-Print-Orientation.png)
+
+- Approximate Print Time (Bottom Shell): 4 Hours, 36 Minutes
+- Filament Usage (Bottom Shell): ~144.18 g
+
+After setting up these orientations, it's recommended to add automatic tree supports to support the floating cantilever (from the mounting rails) in the bottom shell and the overhanging alignment lips in the top shell.
+
+If you're using the included `.3mf` project files, no need to worry - these orientations and supports should already be preserved.
 
 ## Note
 
