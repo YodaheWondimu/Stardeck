@@ -101,7 +101,7 @@ There were also quite a few parts of the design process that gave me sudden real
 - [x] Created BOM
 - [x] Designed enclosure
 - [x] Completed packaging study
-- [ ] Print first prototype
+- [x] Print first prototype
 - [ ] Assemble hardware
 - [ ] Install Raspberry Pi OS
 - [ ] Boot v0.1
@@ -123,8 +123,8 @@ There were also quite a few parts of the design process that gave me sudden real
 These enhancements are intentionally deferred until the initial prototype validates Stardeck's core terminal and file-management workflows.
 
 ## Current Status
-Prototype design complete.
-Next up: Prototype fabrication.
+Prototype design complete, along with enclosure fabrication.
+Next up: Hardware assembly and booting.
 
 ## Acknowledgements
 
