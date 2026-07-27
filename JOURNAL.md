@@ -239,6 +239,8 @@ _TL;DR:_
 
 The following design decisions impacted the long-term path that Stardeck followed. This doesn't necessarily mean that they were the hardest to make, but it means that designs following these decisions were impacted by these sets of decisions making.
 
+(More detailed coverage of the initial schematics and architecture maps used during the planning phase can be found in [`docs/initial_schematic.md`](docs/initial_schematic.md).)
+
 1. Enclosure Structure
 
 During the CAD process, I realized that modeling parts inside an enclosure is useless if the enclosure cannot open and close. This was the base idea for the USB port issue mentioned before, and it led to a choice between different types of closure methods:

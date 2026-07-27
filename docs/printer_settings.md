@@ -1,6 +1,6 @@
 # Printer Settings
 
-Hey there! This document is a place to store my print settings. Due to the open-source nature of Stardeck, you can already find those by looking in `assets/cad`, where you'll see the `.3mf` project files used to print the enclosure. This document is your reference point if a slicer import does not preserve every setting, so if you're here after that happened, you're welcome!
+Hey there! This document is a place to store my print settings. Due to the open-source nature of Stardeck, you can already find those by looking in [`../assets/cad`](../assets/cad/), where you'll see the `.3mf` project files used to print the enclosure. This document is your reference point if a slicer import does not preserve every setting, so if you're here after that happened, you're welcome!
 
 ## Printer
 
@@ -82,4 +82,4 @@ If you're using the included `.3mf` project files, no need to worry - these orie
 
 ## Note
 
-The accompanying `.3mf` project files preserve the print orientation, support placement, and slicer settings used to produce the printable models in this repository, including the first physical enclosure documented in `JOURNAL.md`.
+The accompanying `.3mf` project files preserve the print orientation, support placement, and slicer settings used to produce the printable models in this repository, including the first physical enclosure documented in [`../JOURNAL.md`](../JOURNAL.md).

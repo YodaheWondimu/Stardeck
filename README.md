@@ -27,6 +27,8 @@ The first revision will target simplicity and learning through engineering desig
 
 Stardeck prioritizes functionality and learning over aesthetics for its first version. Once the system is operational, later iterations will focus on usability, appearance, and additional features. This approach prioritizes reaching a working MVP before focusing on aesthetics or refinement (although, those can be reached once we actually have something that boots).
 
+Stardeck had to meet a set of smaller criteria, too, and breaking down the overarching goal was essential to success. To read the smaller subgoals which guided my decision-making, you can navigate to [`docs/requirements.md`](docs/requirements.md).
+
 ## Hardware
 
 The hardware required for this first version is very minimal, with every part having a purpose that directly translates to functionality. Technical details can be reduced by breaking down my project into its main components:
@@ -58,6 +60,8 @@ Flash Drive: If any more storage is owned, the Pi can access files from a Flash 
 | Flash Drive | Existing 128GB USB Flash Drive | 1 | $0.00 | Already owned |
 
 **Estimated Total Project Cost:** $172.57
+
+This can be found in a spreadsheet format in [`BOM.csv`](BOM.csv).
 
 ## System Architecture
 
@@ -134,4 +138,5 @@ Libraries I leaned on: KiCAD for starting schematics, draw.io for in-depth wirin
 Asset packs I used: I did not necessarily use any asset packs during this project. However, I regularly used ChatGPT as a learning resource throughout the making of Stardeck. It guided me through the basics of software that I wasn't familiar with at first (KiCAD and draw.io were new to me) and provided in-depth design reviews whenever I felt stuck keeping track of physical constraints. Debugging issues, catching typos, and hunting for components for the BOM were also helpful services from ChatGPT, but all major decisions, implementations, designs, and tradeoffs were assessed and made by me.
 
 ## Learn More
-Visit the `docs` folder to follow the project's development through design notes and devlogs.
+Visit the [`docs`](docs) folder to follow the project's development through design notes.
+You can also visit my [`JOURNAL.md`](JOURNAL.md) to see day-by-day progress so far.
