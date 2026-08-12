@@ -60,6 +60,7 @@ Flash Drive: If any more storage is owned, the Pi can access files from a Flash 
 | Flash Drive | Existing 128GB USB Flash Drive | 1 | $0.00 | Already owned |
 
 **Estimated Total Project Cost:** $172.57
+_Table 1. Bill of materials._
 
 This can be found in a spreadsheet format in [`BOM.csv`](BOM.csv).
 
@@ -77,6 +78,7 @@ The purpose of the packaging study was to plan our assembly beforehand. We didn'
 Also note that I modeled each part as a simple rectangular prism that reflected the height, width, and depth of each part to minimize complexity and focus on space utilization. With space in mind, I didn't need to model my keyboard - which would connect to the system externally - and I didn't need to model the microSD card either - which had negligible size compared to the Pi it would be inserted into. Cable routes will be finalized during the physical assembly since the only purpose of the cable routes modeled below are to represent feasible routing paths, not exact cable geometry.
 
 ![Stardeck Enclosure (Exploded View)](assets/cad/Component-Assembly-Exploded-View.png)
+_Figure 1. Exploded View of the planned enclosure assembly._
 
 | Number | Component |
 |-----------|--------|
@@ -89,10 +91,12 @@ Also note that I modeled each part as a simple rectangular prism that reflected 
 | 7 | Alignment Lip |
 | 8 | Battery Tray |
 | 9 | Mounting Rails |
+_Table 2. Components shown in Figure 1._
 
 Space was a valuable asset of this entire operation because not only did every part have to fit together, but every part had to be assemblable after I got each part. In other words, if I position the battery tray in such a space that it becomes impossible for the battery to be placed there, the packaging still needed work. Luckily, the design that I came up with utilized the clamshell for feasibility and modularity, which would suffice for our first version. The alignment lips, battery tray, and mounting rails made sure that assembly would be straightforward, start to finish.
 
 ![Stardeck Enclosure (Section View)](assets/cad/Component-Assembly-Section-View.png)
+_Figure 2 - Section View of the planned enclosure assembly._
 
 ## Realizations
 
