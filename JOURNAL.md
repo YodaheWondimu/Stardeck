@@ -199,7 +199,7 @@ _TL;DR:_
 
 ![Physical Enclosure](assets/photos/Physical-Enclosure-Hero-View.jpeg)
 
-Today, I held Stardeck's 3D-printed enclosure for the first time. Although I don't have the electronics yet, the enclosure already gives me a starting point for thinking about how every physical component should fit into Stardeck. I went with some trusty black PLA so that the enclosure can be focused on structural integrity before going for rework and aesthetic goals. I printed each clamshell half separately - one for the top, another for the bottom - and I'm surprised at how well it turned out for the first print. It's quite strange to see something existing and holdable in the real world when all I've been doing with it for weeks was rotating and clicking it in Onshape.
+Today, I held Stardeck's 3D-printed enclosure for the first time. Although I don't have the electronics yet, the enclosure already gives me a starting point for thinking about how every physical component should fit into Stardeck. I went with some trusty black PLA so that the enclosure can be focused on structural integrity before going for rework and aesthetic goals. I printed each enclosure half separately - one for the top, another for the bottom - and I'm surprised at how well it turned out for the first print. It's quite strange to see something existing and holdable in the real world when all I've been doing with it for weeks was rotating and clicking it in Onshape.
 
 Tree supports worked surprisingly well at holding up overhangs, and they could pop right off unintrusively after the print finished. You can see the properties of the Onshape model in the physical enclosure, such as the display mounting area,
 
@@ -219,7 +219,7 @@ Seeing the two halves together also validated one of my earliest design decision
 
 ![Split Halves](assets/photos/Physical-Enclosure-Halves-Split.jpeg)
 
-With all this, I'll be sure to test out how screws fit in as well. When measuring each mounting hole, I found that printer tolerances had been in my favor this time as each diameter turned out to work with my plan. The M2.5 clearance holes held their modeled dimensions, and the M3 clearance holes for the clamshell halves added security as long as the enclosure halves are aligned via their alignment lips.
+With all this, I'll be sure to test out how screws fit in as well. When measuring each mounting hole, I found that printer tolerances had been in my favor this time as each diameter turned out to work with my plan. The M2.5 clearance holes held their modeled dimensions, and the M3 clearance holes for the enclosure halves added security as long as the enclosure halves are aligned via their alignment lips.
 
 ![Stacked Halves](assets/photos/Physical-Enclosure-Halves-Stacked.jpeg)
 
