@@ -1,51 +1,27 @@
 # Stardeck
 
+A minimalist cyberdeck made for a software guy to learn embedded systems, electronics, and hardware design.
+Also, a project made during and for Hack Club's 2026 [Stardance Challenge](https://stardance.hackclub.com/).
+
+[Stardance Project Page](https://stardance.hackclub.com/projects/19479)
+
+## Hero Image
+
 ![Stardeck](assets/cad/Component-Assembly.png)
 
-A minimalist cyberdeck made for a software guy to learn embedded systems, electronics, and hardware design.
-Made for Hack Club's 2026 Stardance Challenge.
+## The Design
 
-Learn more here: https://stardance.hackclub.com/
+View the Onshape document [here!](https://cad.onshape.com/documents/8bb1ca9b7e5ac3a8ddb6398c/w/dff90e83964596d1d17b9d10/e/fb41c0251ce7e4dd570a11cb?renderMode=0&uiState=6a45b81e4e7578b1759ce83d)
 
-View my project on Stardance here: https://stardance.hackclub.com/projects/19479
+## What can Stardeck do?
 
-View the Onshape document here: https://cad.onshape.com/documents/8bb1ca9b7e5ac3a8ddb6398c/w/dff90e83964596d1d17b9d10/e/fb41c0251ce7e4dd570a11cb?renderMode=0&uiState=6a45b81e4e7578b1759ce83d
-
-## Overview
-
-This cyberdeck is a personal project for teaching me the art of hardware engineering through doing. I've been interested in cyberdecks ever since first seeing them in a post on r/cyberdeck, and I'm looking forward to manifesting that interest by making my own. Instead of buying a built device online, I wanted to learn how designing hardware works - from ideas to plans to products. Having the ability to add even a few lines of code to a repo you may be working on using a device that doesn't take up that much space is just one possibility with cyberdecks, with many others opening up once I get a working prototype built.
-
-## Design Philosophy
-
-Stardeck is designed and built using inexpensive components and open-source tools that ensure that anyone could build their own Stardeck.
-
-The first revision will target simplicity and learning through engineering design, which will enable me in future revisions to improve upon Stardeck by testing it in the real world.
-
-## Goal
-
-**First Goal:** Build the ugliest functional cyberdeck possible this summer and submit it to Stardance.
-
-Stardeck prioritizes functionality and learning over aesthetics for its first version. Once the system is operational, later iterations will focus on usability, appearance, and additional features. This approach prioritizes reaching a working MVP before focusing on aesthetics or refinement (although, those can be reached once we actually have something that boots).
-
-Stardeck had to meet a set of smaller criteria, too, and breaking down the overarching goal was essential to success. To read the smaller subgoals which guided my decision-making, you can navigate to [`docs/requirements.md`](docs/requirements.md).
-
-## Hardware
-
-The hardware required for this first version is very minimal, with every part having a purpose that directly translates to functionality. Technical details can be reduced by breaking down my project into its main components:
-
-Computer: The brain behind Stardeck doesn't need much space, but it has much to offer—the Raspberry Pi. This single-board computer has the ability to run an OS, surf the web, connect external devices, and more, while also able to fit into my pocket.
-
-Display: A compact 7-inch touchscreen can act as the main visual interface for the Raspberry Pi while also providing touchscreen input.
-
-Power Bank: This portable recharge base is what gives this valuable resource to all the other components.
-
-Storage: The Pi needs an OS to run on, and that OS needs storage for the Pi to boot from. A microSD card should have enough storage to comfortably boot an OS and store any necessary files once booted.
-
-Video Cable / Adapter: The display can communicate with the Raspberry Pi over HDMI for video and USB for touch input and power. Since the Raspberry Pi only has ports for micro-HDMI, a micro-HDMI adapter or cable may be used.
-
-Keyboard: An external USB keyboard, which I will provide, will be required to make sure the MVP can take inputs.
-
-Flash Drive: If any more storage is owned, the Pi can access files from a Flash Drive I already own that should have enough storage for Stardeck to live off of.
+Once the hardware is assembled, Stardeck would be able to:
+- Boot Raspberry Pi OS
+- Surf the web
+- Download and upload files
+- Connect to external devices
+- Work with a touchscreen (no mouse required!)
+- Allow for further customization in the future (through the Pi's GPIO pins)
 
 ## Bill of Materials (BOM)
 
@@ -59,88 +35,33 @@ Flash Drive: If any more storage is owned, the Pi can access files from a Flash 
 | Keyboard | Existing USB Keyboard | 1 | $0.00 | Already owned |
 | Flash Drive | Existing 128GB USB Flash Drive | 1 | $0.00 | Already owned |
 
-**Estimated Total Project Cost:** $172.57
-_Table 1. Bill of materials._
+**Total Project Cost (USD): $172.57**
 
-This can be found in a spreadsheet format in [`BOM.csv`](BOM.csv).
+## How Stardeck Works
 
-## System Architecture
+As a cyberdeck, what Stardeck has that laptops from big tech may not have is a simple digital experience. With no bloatware or ads pushed onto the user, your device is truly yours. Of course, the planned device for now is a minimum viable product focusing on what Stardeck can do to join the cyberdeck club.
 
-Stardeck can be broken down into four subsystems - power, computing, input, and output - that interact as outlined below. The biggest challenge that came from planning out component interactions is that I did not have the actual parts at hand at that time, so I had to gain experience with designing around parts that only existed in ideation. Putting them into designs ended up answering the question of how Stardeck works electrically.
+The parts that'll be used consist of:
+- Raspberry Pi 4 Model B
+- Elecrow Touchscreen Display
+- Anker Portable Charger
+- microSDXC Memory Card
+- microHDMI to HDMI Adapter Cable
+- Keyboard
+- Flash Drive
 
-![System Architecture](assets/schematics/System-Architecture-A2.png)
-![Engineering Notes](assets/schematics/Engineering-Notes.png)
+The parts will be organized together to fit into a 3D printed enclosure of my design. To understand how Stardeck works, we can look into the purposes of each part and how they interact. The Raspberry Pi was chosen to handle all of Stardeck's computing tasks because it was capable of running a dedicated OS, connecting to the outside world (Internet, Bluetooth, USB-A), and intuitively receiving power without turning Stardeck into a gaming rig. The touchscreen display from Elecrow keeps the enclosure simple with the added bonus of running Stardeck independent of a mouse. The usage of two different memory sources, the memory card and the flash drive, abstracts away logistics/"stats for nerds" for the user's sanity - the memory card can hold OS and system files for the Pi while the flash drive can hold personal files and executables for the user.
 
-## Packaging Study
-
-The purpose of the packaging study was to plan our assembly beforehand. We didn't have the parts yet, so I went into Onshape and designed our first iteration's enclosure. I went with a clamshell design with lip alignments to keep both halves in line and screws and nuts to keep them from sliding apart. Our enclosure dimensions were 195 mm x 145 mm x 80 mm, which seemed compact at the time, so I was surprised to see that all the parts fit into our enclosure with room to spare for wiring and assembly.
-
-Also note that I modeled each part as a simple rectangular prism that reflected the height, width, and depth of each part to minimize complexity and focus on space utilization. With space in mind, I didn't need to model my keyboard - which would connect to the system externally - and I didn't need to model the microSD card either - which had negligible size compared to the Pi it would be inserted into. Cable routes will be finalized during the physical assembly since the only purpose of the cable routes modeled below are to represent feasible routing paths, not exact cable geometry.
-
-![Stardeck Enclosure (Exploded View)](assets/cad/Component-Assembly-Exploded-View.png)
-_Figure 1. Exploded View of the planned enclosure assembly._
-
-| Number | Component |
-|-----------|--------|
-| 1 | Top Enclosure |
-| 2 | Bottom Enclosure |
-| 3 | Raspberry Pi |
-| 4 | Battery Pack |
-| 5 | Screen |
-| 6 | Flash Drive |
-| 7 | Alignment Lip |
-| 8 | Battery Tray |
-| 9 | Mounting Rails |
-_Table 2. Components shown in Figure 1._
-
-Space was a valuable asset of this entire operation because not only did every part have to fit together, but every part had to be assemblable after I got each part. In other words, if I position the battery tray in such a space that it becomes impossible for the battery to be placed there, the packaging still needed work. Luckily, the design that I came up with utilized the clamshell for feasibility and modularity, which would suffice for our first version. The alignment lips, battery tray, and mounting rails made sure that assembly would be straightforward, start to finish.
-
-![Stardeck Enclosure (Section View)](assets/cad/Component-Assembly-Section-View.png)
-_Figure 2 - Section View of the planned enclosure assembly._
-
-## Realizations
-
-There were also quite a few parts of the design process that gave me sudden realizations. First off, I was celebrating after putting alignment lips in place to align the outside shell and keep internals secure as a result - until I realized that there was no way for me to plug my external keyboard into the Pi. Back to Onshape I went, and I created a port cutout so that the Pi's USB ports would all be accessible. Now, not only could I connect a keyboard to the Pi, but I could also swap out flash drives, connect wired mice, and more. That reminded me that engineering is an iterative process where solving one problem often uncovers the next one to solve. In the same thought processes and "aha" moments, I managed to find the designs needed for the alignment lips, battery tray, etc.
-
-## Progress
-
-- [x] Selected hardware
-- [x] Created wiring diagram
-- [x] Created BOM
-- [x] Designed enclosure
-- [x] Completed packaging study
-- [x] Print first prototype
-- [ ] Assemble hardware
-- [ ] Install Raspberry Pi OS
-- [ ] Boot v0.1
-
-## Roadmap
-
-### Near-term
-- Assemble electronics
-- Boot Raspberry Pi OS
-- Validate packaging
-
-### Long-term
-- Integrated 60% keyboard
-- SSD
-- Modular expansion
-- Improved enclosure
-
-These enhancements are intentionally deferred until the initial prototype validates Stardeck's core terminal and file-management workflows.
-
-## Current Status
-Prototype design complete, along with enclosure fabrication.
-Next up: Hardware assembly and booting.
+These are the parts that I'm using, but what about the part that I'm designing - the enclosure? I went with a two-piece clamshell design for its elegant ease of use. After adding alignment lips to help with nesting the top half onto the bottom shoebox-style, I continued adding physical features as necessary. For example, the mounting rails on the bottom half are the Raspberry Pi's stepstool; they keep the Pi near the middle of Stardeck so it can connect to all the other parts easily. A battery tray also makes up the bottom half to keep the battery pack from sliding all around. When I was figuring out which side to place the battery tray into, I realized how annoying it would be to nudge the battery pack under the mounting rails, so I chose the side opposite to it on the enclosure floor to save myself from crying later. As for actually keeping these parts' order, I used threaded bosses as my holes in the mounting rails, top half, and alignment lips to cooperate with screws that'll mount the Raspberry Pi, screen, and enclosure halves respectively. After months of designing/wrestling around parts I didn't have, the main lesson I've learned is that the toil of predicting and fixing hardware problems before they show themselves to you is just one step prior to the fun part I'm hoping for: getting a usable Stardeck to work IRL.
 
 ## Acknowledgements
 
-People who helped: HTM Workshop's KiCAD tutorial series walked me through the basics of KiCAD, which helped me visualize ports on the Raspberry Pi when creating the initial schematic.
+The [Stardance Challenge](https://stardance.hackclub.com/) is what pushed me to take an idea and turn it into something unmistakably mine this summer. Go check them, and [Hack Club](https://hackclub.com/), out! This wouldn't have been possible without their guidance, support, and honest feedback.
 
-Libraries I leaned on: KiCAD for starting schematics, draw.io for in-depth wiring plans, engineering notes, and estimates, and Onshape for CAD.
+Thanks to [HTM Workshop's KiCAD tutorial playlist](https://www.youtube.com/playlist?list=PLUOaI24LpvQPls1Ru_qECJrENwzD7XImd) for walking me through how KiCAD works. Just knowing KiCAD existed was a game changer for how I viewed the project, even if I ended up using Onshape to give my idea some shape. The big three used in my project were KiCAD for initial schematics, draw.io for architecture diagrams and notes, and Onshape for the physical CAD that got Stardeck out of the phase of "that would be nice to have. Oh well..."
 
-Asset packs I used: I did not necessarily use any asset packs during this project. However, I regularly used ChatGPT as a learning resource throughout the making of Stardeck. It guided me through the basics of software that I wasn't familiar with at first (KiCAD and draw.io were new to me) and provided in-depth design reviews whenever I felt stuck keeping track of physical constraints. Debugging issues, catching typos, and hunting for components for the BOM were also helpful services from ChatGPT, but all major decisions, implementations, designs, and tradeoffs were assessed and made by me.
+**AI Usage Declaration:** I regularly used ChatGPT as a learning resource while making Stardeck, since it was able to introduce libraries to me that I wasn't familiar with, find relevant Featurescripts for certain problems in Onshape, and monitor consistency between my port map in draw.io and my modeled connections in Onshape. However, all major decisions that characterized Stardeck were made by me.
 
-## Learn More
-Visit the [`docs`](docs) folder to follow the project's development through design notes.
-You can also visit my [`JOURNAL.md`](JOURNAL.md) to see day-by-day progress so far.
+Want to learn more about Stardeck?
+I've got key design notes in the [`docs`](docs) folder.
+There's day-to-day progress in my [`JOURNAL`](JOURNAL.md), too!
