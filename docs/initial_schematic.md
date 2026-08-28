@@ -16,7 +16,7 @@ The cyberdeck consists of four primary subsystems:
 - Output
 
 ## System Schematic (acting as our initial plan)
-![System Schematic](../assets/schematics/System-Schematic.png)
+![System Schematic](../assets/architecture/System-Schematic.png)
 
 ## Descriptions:
 - The power subsystem provides energy to all the other subsystems. This is the cornerstone of Stardeck.
@@ -63,9 +63,9 @@ The case size appears sufficient to fit all components based on the placeholder 
 
 With these in mind, here was the placeholder assembly used for the packaging study:
 
-![Placeholder Assembly (Top)](../assets/cad/Placeholder-Assembly-Top.png)
+![Placeholder Assembly (Top)](../assets/designs/Placeholder-Assembly-Top.png)
 
-![Placeholder Assembly (Bottom)](../assets/cad/Placeholder-Assembly-Bottom.png)
+![Placeholder Assembly (Bottom)](../assets/designs/Placeholder-Assembly-Bottom.png)
 
 So far, the parts we will be using seem to interact with each other clearly and fit into one coherent assembly. For next steps, we'll determine how the selected components will interface with one another and refine this system diagram into a more detailed schematic.
 

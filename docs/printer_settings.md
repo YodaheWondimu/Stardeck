@@ -1,6 +1,6 @@
 # Printer Settings
 
-Hey there! This document is a place to store my print settings. Due to the open-source nature of Stardeck, you can already find those by looking in [`../assets/cad`](../assets/cad/), where you'll see the `.3mf` project files used to print the enclosure. This document is your reference point if a slicer import does not preserve every setting, so if you're here after that happened, you're welcome!
+Hey there! This document is a place to store my print settings. Due to the open-source nature of Stardeck, you can already find those by looking in [`../assets/designs`](../assets/designs/), where you'll see the `.3mf` project files used to print the enclosure. This document is your reference point if a slicer import does not preserve every setting, so if you're here after that happened, you're welcome!
 
 ## Printer
 
@@ -66,12 +66,12 @@ Hey there! This document is a place to store my print settings. Due to the open-
 
 When printing each shell, orient your print so that the biggest face is touching the printbed. (Print orientation photos demonstrate this below.) For the bottom shell, keep the bottom-side face down, and for the top shell, keep the screen-side face down.
 
-![Print Orientation (Top)](../assets/cad/Top-Shell-Print-Orientation.png)
+![Print Orientation (Top)](../assets/designs/Top-Shell-Print-Orientation.png)
 
 - Approximate Print Time (Top Shell): 4 Hours, 48 Minutes
 - Filament Usage (Top Shell): ~102.74 g
 
-![Print Orientation (Bottom)](../assets/cad/Bottom-Shell-Print-Orientation.png)
+![Print Orientation (Bottom)](../assets/designs/Bottom-Shell-Print-Orientation.png)
 
 - Approximate Print Time (Bottom Shell): 4 Hours, 36 Minutes
 - Filament Usage (Bottom Shell): ~144.18 g

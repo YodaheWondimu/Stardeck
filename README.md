@@ -7,7 +7,7 @@ Also, a project made during and for Hack Club's 2026 [Stardance Challenge](https
 
 ## Hero Image
 
-![Stardeck](assets/cad/Component-Assembly.png)
+![Stardeck](assets/designs/Component-Assembly.png)
 
 ## The Design
 
