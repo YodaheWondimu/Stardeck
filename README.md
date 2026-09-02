@@ -27,7 +27,7 @@ Once the hardware is assembled, Stardeck would be able to:
 
 | Component | Model | Qty | Cost | Link |
 |-----------|--------|----:|-----:|------|
-| Computer | Raspberry Pi 4 Model B (4GB RAM) | 1 | $79.95 | [Canakit](https://www.canakit.com/raspberry-pi-4-4gb.html?cid=USD) |
+| Computer | Raspberry Pi 4 Model B (4GB RAM) | 1 | $0.00 | Already Owned |
 | Display | Elecrow RC070 7-inch Touchscreen Display (1024×600) | 1 | $54.99 | [CrowPi](https://www.crowpi.cc/products/rc070-7-inch-raspberry-pi-monitor-1024x600-touchscreen-mini-hdmi-lcd-screen?variant=39701750775941&country=US&currency=USD&utm_source=chatgpt.com&oppcref=e96bec25-1e39-4ef8-afa0-9b23e74db94f) |
 | Power Bank | Anker 10000mAh Portable Charger | 1 | $19.99 | [Amazon](https://www.amazon.com/Anker-Travel-Ready-Technology-High-Speed-Output%EF%BC%88Black%EF%BC%89%EF%BC%8C1pack/dp/B0D5CLSMFB?th=1) |
 | Storage | SanDisk Ultra Plus 64GB microSDXC UHS-I Memory Card | 1 | $14.00 | [Best Buy](https://www.bestbuy.com/product/sandisk-ultra-plus-64gb-microsdxc-uhs-i-memory-card/JXJ62C647Q) |
@@ -35,7 +35,7 @@ Once the hardware is assembled, Stardeck would be able to:
 | Keyboard | Existing USB Keyboard | 1 | $0.00 | Already owned |
 | Flash Drive | Existing 128GB USB Flash Drive | 1 | $0.00 | Already owned |
 
-**Total Project Cost (USD): $172.57**
+**Total Project Cost (USD): $92.62**
 
 ## How Stardeck Works
 
